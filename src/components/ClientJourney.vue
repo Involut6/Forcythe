@@ -20,7 +20,7 @@ onMounted(() => {
             </span>
         </p>
         <div v-for="(animation, animationIndex) in 2" :key="animationIndex"  class="w-full inline-flex flex-nowrap overflow-x-hidden">
-            <ul v-for="(item, index) in 2" :key="index" class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none" :class="animationIndex === 0 ? 'animate-infinite-scroll-left' : 'animate-infinite-scroll-right mt-4'">
+            <ul v-for="(item, index) in 2" :key="index" class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none" :class="animationIndex === 0 ? 'animate-infinite-scroll-left' : 'animate-infinite-scroll-right mt-4'" :aria-hidden="animationIndex === 0 && index === 1 ? 'true' : 'false'">
                 <li>
                     <img src="https://forcythe.com/images/Project%20Images/stac.svg" alt="Facebook" />
                 </li>

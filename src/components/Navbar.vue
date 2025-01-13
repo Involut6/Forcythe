@@ -22,7 +22,7 @@ import { Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/vue'
                 <img alt="menu" loading="lazy" class="w-[18px] h-[18px]" src="https://forcythe.com/images/menu.svg" />
             </MenuButton>
             <MenuItems>
-                <div class="absolute top-24 w-[238px] right-0 p-5 py-8 rounded-[2rem]" style="background: linear-gradient(0deg, rgba(7, 22, 38, 0) 32%, rgb(7, 22, 38) 85%);">
+                <div class="absolute top-24 w-[238px] right-0 p-5 py-8 rounded-[2rem] bg-gradient-to-b from-accent2 to-primary">
                     <ul class="flex flex-col">
                         <MenuItem class="w-full py-2.5">
                             <a class="w-full text-base py-3"><span>About</span></a>
