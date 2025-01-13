@@ -22,22 +22,22 @@ onMounted(() => {
         <div v-for="(animation, animationIndex) in 2" :key="animationIndex"  class="w-full inline-flex flex-nowrap overflow-x-hidden">
             <ul v-for="(item, index) in 2" :key="index" class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none" :class="animationIndex === 0 ? 'animate-infinite-scroll-left' : 'animate-infinite-scroll-right mt-4'" :aria-hidden="animationIndex === 0 && index === 1 ? 'true' : 'false'">
                 <li>
-                    <img src="https://forcythe.com/images/Project%20Images/stac.svg" alt="Facebook" />
+                    <img src="https://forcythe.com/images/Project%20Images/stac.svg"  />
                 </li>
                 <li>
-                    <img src="https://forcythe.com/images/Project%20Images/phone.svg" alt="Disney" />
+                    <img src="https://forcythe.com/images/Project%20Images/phone.svg" />
                 </li>
                 <li>
-                    <img src="https://forcythe.com/images/Project%20Images/starks.svg" alt="Airbnb" />
+                    <img src="https://forcythe.com/images/Project%20Images/starks.svg" />
                 </li>
                 <li>
-                    <img src="https://forcythe.com/images/Project%20Images/activity.svg" alt="Apple" />
+                    <img src="https://forcythe.com/images/Project%20Images/activity.svg" /> 
                 </li>
                 <li>
-                    <img src="https://forcythe.com/images/Project%20Images/africaFund.svg" alt="Spark" />
+                    <img src="https://forcythe.com/images/Project%20Images/africaFund.svg" />
                 </li>
                 <li>
-                    <img src="https://forcythe.com/images/Project%20Images/exec-pro.svg" alt="Samsung" />
+                    <img src="https://forcythe.com/images/Project%20Images/exec-pro.svg" />
                 </li>
             </ul>
         </div>
